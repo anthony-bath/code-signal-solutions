@@ -1,2 +1,3 @@
-# code-signal-solutions
-My Solutions to Code Signal Problems
+# Code Signal Solutions
+
+My Solutions to various [Code Signal](https://www.codesignal.com) Problems
