@@ -1,7 +1,5 @@
 //Link to the challenge: https://app.codesignal.com/challenge/D7xcKDseTa2gLondg
 
-//Link to the challenge: https://app.codesignal.com/challenge/D7xcKDseTa2gLondg
-
 const masterVsFighters = (fighters, [mHealth, mAttack, mResistance]) => {
   let hitsByMaster = [];
   let hitsByFighters = [];
