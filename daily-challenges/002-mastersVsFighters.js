@@ -67,8 +67,8 @@ const fighterTypes = {
 // Explanation
 //*****************************************************************************
 /*
-  The `average` helper function determines the average to decimal places of the
-  given array, or 0 for a 0 length array.
+  The `average` helper function determines the average of the given array to 2
+  decimal places, or 0 for a 0 length array.
 
   The `fighterTypes` object is a lookup as the input to the challenge function
   is given as an array of 'a', 'b' and 'g' values.
