@@ -17,7 +17,7 @@ const simpleASCIIGuitarTab = notes => {
     strings.forEach(s => tab[s].push(s === string ? '-' : '--'));
   });
 
-  return strings.map(s => (tab[s].push('|'), tab[s].join('')));
+  return strings.map(s => `${tab[s].join('')}|`);
 };
 
 const E = 'E';
