@@ -15,7 +15,7 @@ const detectTempo = waveform => {
 
   for (let beat of beats) {
     for (let tempo of tempos) {
-      if (beat > tempo) continue;
+      if (beat > tempo || tempo > minTempo) continue;
 
       let found = true;
 
@@ -26,7 +26,7 @@ const detectTempo = waveform => {
         }
       }
 
-      if (found && tempo < minTempo) {
+      if (found) {
         minTempo = tempo;
       }
     }
