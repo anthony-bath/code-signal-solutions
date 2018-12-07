@@ -6,11 +6,7 @@ const djSet = (lib, first, last) => {
   const distances = Array(lib.length).fill(Number.MAX_VALUE);
   const queue = new Set(Array.from({ length: lib.length }, (_, i) => i));
 
-  queue.delete(first);
-
-  for (let i = 0; i < lib.length; i++) {
-    distances[i] = getDistance(lib[first], lib[i]);
-  }
+  distances[first] = 0;
 
   while (queue.size) {
     let min = -1;
