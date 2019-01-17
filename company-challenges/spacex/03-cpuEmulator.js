@@ -49,21 +49,17 @@ const process = (func, arg1, arg2, index) => {
       return index + 1;
     }
 
-    case 'DEC':
-      {
-        const current = R.get(arg1);
-        R.set(arg1, current === 0 ? 2 ** 32 - 1 : current - 1);
-        return index + 1;
-      }
-      break;
+    case 'DEC': {
+      const current = R.get(arg1);
+      R.set(arg1, current === 0 ? 2 ** 32 - 1 : current - 1);
+      return index + 1;
+    }
 
-    case 'INC':
-      {
-        const current = R.get(arg1);
-        R.set(arg1, current === 2 ** 32 - 1 ? 0 : current + 1);
-        return index + 1;
-      }
-      break;
+    case 'INC': {
+      const current = R.get(arg1);
+      R.set(arg1, current === 2 ** 32 - 1 ? 0 : current + 1);
+      return index + 1;
+    }
 
     case 'JMP':
       return parseInt(arg1) - 1;
