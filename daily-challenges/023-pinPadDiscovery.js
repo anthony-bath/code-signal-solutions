@@ -1,3 +1,5 @@
+//Link to the challenge: https://app.codesignal.com/challenge/qBciCnWsCqNKTeLRP
+
 const pinPadDiscovery = logins => {
   const pin = ['?', '?', '?', '?'];
   const maps = [];

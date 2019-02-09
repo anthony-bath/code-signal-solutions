@@ -1,3 +1,5 @@
+//Link to the challenge: https://app.codesignal.com/challenge/J6DuW9RqENKaJjkGS
+
 const arrayMode = sequence => {
   let mode,
     max = 0;

@@ -1,3 +1,5 @@
+//Link to the challenge: https://app.codesignal.com/challenge/4g6CMty5kLMxivyHR
+
 const arrayMaxConsecutiveSum = (inputArray, k) => {
   let front = 0;
   let kSum = sum(inputArray.slice(front, k));

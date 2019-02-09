@@ -1,3 +1,6 @@
+//Link to the challenge: https://app.codesignal.com/challenge/RMiK5TYwKuFmjfYjg
+
+//Incomplete
 const theSmallestStringCipher = (key, message) => {
   let i = 0,
     j = 0;
